@@ -1,62 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome - Republic of ToadVille Bay (United States)</title>
-    <meta content="Welcome - Republic of ToadVille Bay (United States)" property="og:title" />
-    <meta content="Official government website for ToadVille Bay - Immigration, Citizenship, Business, and Community Services." property="og:description" />
-    <meta content="https://toadvillebay.com/" property="og:url" />
-    <meta content="https://toadvillebay.com/Images and Videos/ToadVilleCOA.png" property="og:image" />
-    <meta content="#0066CC" data-react-helmet="true" name="theme-color" />
-    <link rel="icon" type="image/png" href="./Images and Videos/ToadVilleCOA.png" />
-    <link rel="apple-touch-icon" href="./Images and Videos/ToadVilleCOA.png" />
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TBExit27 has been enacted</title>
+  <meta content="TBExit27 has been enacted" property="og:title" />
+  <meta content="Details on what to expect." property="og:description" />
+  <meta content="https://toadvillebay.com/Legal/sanctions.html" property="og:url" />
+  <meta content="https://toadvillebay.com/Images and Videos/ToadVilleCOA.png" property="og:image" />
+  <link rel="icon" type="image/png" href="../Images and Videos/ToadVilleCOA.png" />
+  <link rel="apple-touch-icon" href="../Images and Videos/ToadVilleCOA.png" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
-<body class="landing">
-    <div class="container">
-        <main class="landing-content" role="main">
-            <div class="header">
-                <img class="site-flag" src="Images and Videos/flag.png" alt="ToadVille Bay Flag" />
-                <h1 class="site-title">Welcome - Republic of ToadVille Bay (United States)</h1>
-            </div>
-
-            <nav class="navigation-buttons" role="navigation">
-                <button class="nav-btn secondary" onclick="navigateTo('./home.html')">
-                    Enter Site
-                </button>
-                <div class="secondary-nav">
-                    <button class="nav-btn secondary" onclick="navigateTo('./immigration.html')">
-                        Immigration
-                    </button>
-                    <button class="nav-btn secondary" onclick="navigateTo('./about.html')">
-                        About the Project
-                    </button>
-                </div>
-            </nav>
-
-            <footer class="landing-footer">
-                <p class="landing-description">
-                    NOTE: ToadVille Bay United States is managed by ToadVille Bay Ltd, based in Canada, please use their support if you have an inquiry
-                </p>
-                <div class="landing-copyright">
-                    © ToadVille Bay Ltd 2019-<span id="current-year"></span>
-                </div>
-            </footer>
-        </main>
+<body>
+  <header class="site-header" role="banner">
+    <div class="site-header__top">
+      <a class="site-brand" href="/index.html">
+        <img src="../Images and Videos/flag.png" alt="ToadVille Bay" class="brand-mark" />
+        <span class="brand-text">ToadVille Bay</span>
+      </a>
+      <div class="site-utils">
+        <form class="site-search" role="search" aria-label="Site search" onsubmit="handleSearch(event)">
+          <label for="q" class="sr-only">Search ToadVille Bay</label>
+          <input id="q" name="q" type="search" placeholder="Search ToadVille Bay Canada" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </header>
 
-    <script>
-        // Update copyright year automatically
-        document.addEventListener('DOMContentLoaded', function() {
-            const currentYear = new Date().getFullYear();
-            document.getElementById('current-year').textContent = currentYear;
-        });
+  <section class="hero" aria-label="Sanctions Policy">
+    <div class="hero__content">
+      <h1 class="h1-accent">TBExit27 is now fully in affect</h1>
+      <p>ToadVille Network LLC has fully been dissolved.</p>
+    </div>
+  </section>
 
-        // Navigation function for buttons
-        function navigateTo(url) {
-            window.location.href = url;
-        }
-    </script>
+  <main class="page-content">
+    <section class="info-section" aria-labelledby="intro-title">
+      <h2 id="intro-title">Overview</h2>
+      <p>TBExit27 (ToadVille Bay Exit 2027) is an act that fully withdraw's ToadVille Bay's operation within the United States of America.</p>
+    </section>
+
+    <section class="info-section" aria-labelledby="in-game-title">
+      <h2 id="in-game-title">What will happen?</h2>
+      <p>Services will remain active to U.S.A. users, however, ToadVille Bay will not have any servers within the United States of America, resulting in latency as you will be connected to foregin servers, either in Canada or Mexico, depending on your location, here is how TBExit27 affects you:</p>
+      <ul>
+        <li><strong>No regional pricing:</strong> ToadVille Bay Merch store will not be in USD.</li>
+        <li><strong>Higher cost:</strong> Tariffs and international shipping can affect cost for you.</li>
+        <li><strong>Limitations to services:</strong> No dedicated servers or entity can cause issues when it comes to support or connecting to ToadVille Bay.</li>
+      </ul>
+    </section>
+
+
+    <section class="info-section" aria-labelledby="reporting-title">
+      <h2 id="reporting-title">What now?</h2>
+      <p>You still can use ToadVille Bay as you would, but be aware that ToadVille Bay has no support services in the US. If you have questions, please email us!</p>
+      <p><a href="mailto:support@toadvillebay.com" class="btn-primary">support@toadvillebay.com</a></p>
+      <p>Note:</p>
+      <ul>
+        <li>No US users will be accepted to ToadVille Bay Insiders, if you are a current memeber, you can remain, however if you leave, you may not join back.</li>
+      </ul>
+    </section>
+
+    <section class="info-section" aria-labelledby="related-links-title">
+      <h2 id="related-links-title">Related Policies</h2>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="termsofservice.html">Terms of Service</a></li>
+        <li><a href="communityguidelines.html">Community Guidelines</a></li>
+        <li><a href="piracy.html">Piracy Policy</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img class="footer-brand-img" src="../Images and Videos/flag.png" alt="ToadVille Bay" />
+      </div>
+      <div class="footer-links-columns">
+        <div>
+          <h4>About</h4>
+          <ul>
+            <li><a href="../About/community.html">Our community</a></li>
+            <li><a href="../About/departments.html">Departments</a></li>
+            <li><a href="../About/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="../resources/programs-services.html">Programs & services</a></li>
+            <li><a href="../resources/permits-licenses.html">Permits & licenses</a></li>
+            <li><a href="../resources/accessibility.html">Accessibility</a></li>
+            <li><a href="../resources/sitemap.html">Site map</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="termsofservice.html">Terms of Service</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="communityguidelines.html">Community Guidelines</a></li>
+            <li><a href="sanctions.html">Sanctions Policy</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-brand" style="grid-column: 1 / -1; text-align:center;">
+          <span class="site-footer-text">© ToadVille Network LLC 2019–2024</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/site-search.js"></script>
 </body>
 </html>
